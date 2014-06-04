@@ -1,0 +1,37 @@
+# Homebrewを最新版にアップデート
+update
+
+# Formulaを更新
+upgrade
+
+# パッケージをインストール
+install wget
+install jenkins
+
+# Homebrew-caskをインストール
+tap 'phinze/cask'
+install brew-cask
+
+# アプリをインストール
+cask install google-japanese-ime
+cask install google-chrome
+cask install android-file-transfer
+cask install dropbox
+
+cask install skype
+cask install hipchat
+cask install gitter
+cask install yorufukurou
+
+cask install mou
+cask install emacs
+cask install skitch
+
+cask install iterm2
+cask install virtualbox
+cask install genymotion
+cask install android-studio-bundle
+cask install titanium-studio
+
+# 不要なファイルを削除
+clean
